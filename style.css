@@ -1,0 +1,32 @@
+.content {
+    background-color: #222;
+    color: #fff;
+}
+th {
+    text-align: center;
+    background: #fd7e14;
+    color: black;
+    font-weight: bold;
+}
+tr {
+    text-align: center;
+    color: white;
+}
+tr:nth-child(even) {
+    background: #333131;
+}
+tr:nth-child(odd) {
+    background: #26282a;
+}
+
+.points {
+    width: 20ch;
+}
+
+.rank {
+    width: 10ch;
+}
+
+th:nth-child(1), td:nth-child(1) {
+    text-align: left;
+}
